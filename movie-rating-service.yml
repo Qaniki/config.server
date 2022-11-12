@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: movie-rating-service
+  profiles:
+    active: test
+  cloud:
+    config:
+      uri: http://localhost:8888/
+server:
+  port: 8083
